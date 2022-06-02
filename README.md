@@ -47,7 +47,7 @@ Look into the following link for a complete list of detailed resources for web d
 4. '/' means the root. This is something to use when your site is published. When viewing your site locally do not use it. Ex: Use 'images/a.png' instead of '/images/a.png' locally
 5. Note that 100% == 16px == 1em. Using 'px' is not dynamic but '%' and em 'are'
 6. Note that '==' and '===' are different as '==' does not check the data type while comparing. For Ex: 1 == "1" would return true but 1 === "1" would return false.
-7. innerHTML and textContent are different as the innerHTML gives you all of the content inside the tag whereas the textContent gives you only the text inside the tag. Ex: <h1><strong> Hello </strong></h1>, innerHTML of h1 would give you "<strong> Hello </strong>" whereas textContent of h1 would give you "Hello"
+7. innerHTML and textContent are different as the innerHTML gives you all of the content inside the tag whereas the textContent gives you only the text inside the tag. Ex: <body><strong> Hello </strong></body>, innerHTML of body would give you "<strong> Hello </strong>" whereas textContent of body would give you "Hello"
 8. Use the classList - add, remo 
 
 
