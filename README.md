@@ -27,6 +27,9 @@
 20. https://www.npmjs.com/package/ejs
 21. https://web.archive.org/web/20210428074406/https://ejs.co/index.html
 22. https://github.com/mde/ejs/wiki/Using-EJS-with-Express
+23. https://dmitripavlutin.com/6-ways-to-declare-javascript-functions/
+24. https://www.w3schools.com/sql/
+25. https://www.mongodb.com/docs/manual/tutorial/getting-started/
 
 Look into the following link for a complete list of detailed resources for web dev: https://www.appbrewery.co/p/web-development-course-resources
 
@@ -46,7 +49,8 @@ Look into the following link for a complete list of detailed resources for web d
 2. But the same does not apply to javascript as here you are trying to give behavior to element. Thus if you link js file in the head, it will fail since the element does not even exist yet. So, the best practice is to put the script tags at the end just before the closing of the body tag.
 3. Note that for addEventListner, "click" does not need an "event" argument in the function (), you can access the trigger by "this" but for "keydown" you need to pass an event argument in the function (event) to access the attributes of the trigger.
 4. You cannot use jquery delays with addclass since they are not queued. Whenever you use queue, always remember to call dequeue.
-5. Variables declared using var in js inside loops, conditions are global whereas for let they are local. 
+5. Variables declared using var in js inside loops, conditions are global whereas for let they are local.
+6. "const" keyword has different meaning for arrays and objects in js. 
 
 
 ## Important Facts
