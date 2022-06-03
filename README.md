@@ -30,6 +30,7 @@
 23. https://dmitripavlutin.com/6-ways-to-declare-javascript-functions/
 24. https://www.w3schools.com/sql/
 25. https://www.mongodb.com/docs/manual/tutorial/getting-started/
+26. https://mongoosejs.com/docs/subdocs.html#removing-subdocs
 
 Look into the following link for a complete list of detailed resources for web dev: https://www.appbrewery.co/p/web-development-course-resources
 
@@ -78,6 +79,7 @@ Look into the following link for a complete list of detailed resources for web d
 10. Use "//jshint esversion:6" at the top of the js file to let the linter know that we are working with es6 to avoid the warning given while using "const" for requiring packages in js (for atom editor)
 11. __dirname gives you the absolute path of the folder the current file is residing in. Use it instead of relative paths.
 12. Try to use let instead of var to declare variables.
+13. While using mongoDB, it is a good practice to close the connection at the end of the js file when you are done
 
 
 ## CSS Challenge
