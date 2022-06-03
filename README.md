@@ -21,6 +21,9 @@
 14. https://css3buttongenerator.com/
 15. https://www.internetlivestats.com/
 16. https://www.minifier.org/
+17. https://nodejs.org/api/
+18. https://www.npmjs.com/
+19. https://expressjs.com/
 
 Look into the following link for a complete list of detailed resources for web dev: https://www.appbrewery.co/p/web-development-course-resources
 
@@ -50,7 +53,8 @@ Look into the following link for a complete list of detailed resources for web d
 5. Note that 100% == 16px == 1em. Using 'px' is not dynamic but '%' and em 'are'
 6. Note that '==' and '===' are different as '==' does not check the data type while comparing. For Ex: 1 == "1" would return true but 1 === "1" would return false.
 7. innerHTML and textContent are different as the innerHTML gives you all of the content inside the tag whereas the textContent gives you only the text inside the tag. Ex: <body><strong> Hello </strong></body>, innerHTML of body would give you "<strong> Hello </strong>" whereas textContent of body would give you "Hello"
-8. Use the classList - add, remo 
+8. Use the classList - add, remove, toggle to keep js and css seperate
+9. As of versions gerater than node 5, you don't need to use the --save flag while installing packages. --save just lists that package as a dependency in your package.json. 
 
 
 ## Good Practices
@@ -63,6 +67,7 @@ Look into the following link for a complete list of detailed resources for web d
 7. Using single quotes when using strings in inline javascript to avoid confusion
 8. Use querySelector and querySelectorAll instead of getElements methods
 9. minifying the js or css code reduces the size and makes the loading much faster
+10. Use "//jshint esversion:6" at the top of the js file to let the linter know that we are working with es6 to avoid the warning given while using "const" for requiring packages in js (for atom editor)
 
 
 ## CSS Challenge
